@@ -156,6 +156,8 @@ async def _help(app: Ariadne, sender: Union[Friend, Group]):
     pic.draw_tip("查询本群的\"动态@我\"名单")
 
     # 底部版权信息，请务必保留此处
+    # 仅作为部署需要的附加声明
+    pic.draw_text_right(25, "Deploy by XChen446@github.com", Color.GRAY)
     pic.draw_text_right(25, "Designed By StarBot", Color.GRAY)
     pic.draw_text_right(25, "https://github.com/Starlwr/StarBot", Color.LINK)
     pic.crop_and_paste_bottom()
